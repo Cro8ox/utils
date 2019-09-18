@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/objectstorage/v1/containers"
-	"github.com/gophercloud/gophercloud/openstack/objectstorage/v1/objects"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/cro8ox/gophercloud"
+	"github.com/cro8ox/gophercloud/openstack/objectstorage/v1/containers"
+	"github.com/cro8ox/gophercloud/openstack/objectstorage/v1/objects"
+	"github.com/cro8ox/gophercloud/pagination"
 )
 
 // DownloadOpts represents options used for downloading an object.

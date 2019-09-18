@@ -3,9 +3,9 @@ package v1
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/utils/gnocchi/metric/v1/resourcetypes"
+	"github.com/cro8ox/gophercloud"
+	"github.com/cro8ox/gophercloud/acceptance/tools"
+	"github.com/cro8ox/utils/gnocchi/metric/v1/resourcetypes"
 )
 
 // CreateResourceType creates Gnocchi resource type. An error will be returned if the

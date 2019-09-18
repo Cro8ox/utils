@@ -3,8 +3,8 @@ package resourcetypes
 import (
 	"encoding/json"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/cro8ox/gophercloud"
+	"github.com/cro8ox/gophercloud/pagination"
 )
 
 type commonResult struct {

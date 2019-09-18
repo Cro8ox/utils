@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
-	th "github.com/gophercloud/gophercloud/testhelper"
-	"github.com/gophercloud/utils/gnocchi/metric/v1/status"
-	fake "github.com/gophercloud/utils/gnocchi/testhelper/client"
+	th "github.com/cro8ox/gophercloud/testhelper"
+	"github.com/cro8ox/utils/gnocchi/metric/v1/status"
+	fake "github.com/cro8ox/utils/gnocchi/testhelper/client"
 )
 
 func TestGetWithDetails(t *testing.T) {

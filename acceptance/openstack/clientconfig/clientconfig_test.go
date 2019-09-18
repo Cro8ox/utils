@@ -5,12 +5,12 @@ package clientconfig
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/servers"
+	"github.com/cro8ox/gophercloud/openstack/compute/v2/servers"
 
-	acc_compute "github.com/gophercloud/gophercloud/acceptance/openstack/compute/v2"
-	acc_tools "github.com/gophercloud/gophercloud/acceptance/tools"
+	acc_compute "github.com/cro8ox/gophercloud/acceptance/openstack/compute/v2"
+	acc_tools "github.com/cro8ox/gophercloud/acceptance/tools"
 
-	cc "github.com/gophercloud/utils/openstack/clientconfig"
+	cc "github.com/cro8ox/utils/openstack/clientconfig"
 )
 
 func TestServerCreateDestroy(t *testing.T) {

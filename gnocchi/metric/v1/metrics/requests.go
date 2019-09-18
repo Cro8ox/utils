@@ -1,8 +1,8 @@
 package metrics
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/cro8ox/gophercloud"
+	"github.com/cro8ox/gophercloud/pagination"
 )
 
 // ListOptsBuilder allows extensions to add additional parameters to the

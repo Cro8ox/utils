@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/pagination"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	"github.com/gophercloud/utils/gnocchi/metric/v1/resourcetypes"
-	fake "github.com/gophercloud/utils/gnocchi/testhelper/client"
+	"github.com/cro8ox/gophercloud/pagination"
+	th "github.com/cro8ox/gophercloud/testhelper"
+	"github.com/cro8ox/utils/gnocchi/metric/v1/resourcetypes"
+	fake "github.com/cro8ox/utils/gnocchi/testhelper/client"
 )
 
 func TestList(t *testing.T) {

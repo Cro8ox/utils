@@ -1,6 +1,6 @@
 package status
 
-import "github.com/gophercloud/gophercloud"
+import "github.com/cro8ox/gophercloud"
 
 type commonResult struct {
 	gophercloud.Result

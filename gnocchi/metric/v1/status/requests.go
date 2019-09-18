@@ -1,7 +1,7 @@
 package status
 
 import (
-	"github.com/gophercloud/gophercloud"
+	"github.com/cro8ox/gophercloud"
 )
 
 // GetOptsBuilder allows to add additional parameters to the Get request.

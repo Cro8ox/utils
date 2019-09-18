@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack"
-	"github.com/gophercloud/gophercloud/openstack/objectstorage/v1/swauth"
-	"github.com/gophercloud/utils/openstack/clientconfig"
+	"github.com/cro8ox/gophercloud"
+	"github.com/cro8ox/gophercloud/openstack"
+	"github.com/cro8ox/gophercloud/openstack/objectstorage/v1/swauth"
+	"github.com/cro8ox/utils/openstack/clientconfig"
 )
 
 type Config struct {

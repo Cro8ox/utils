@@ -7,10 +7,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/objectstorage/v1/containers"
-	"github.com/gophercloud/gophercloud/openstack/objectstorage/v1/objects"
+	"github.com/cro8ox/gophercloud"
+	"github.com/cro8ox/gophercloud/acceptance/tools"
+	"github.com/cro8ox/gophercloud/openstack/objectstorage/v1/containers"
+	"github.com/cro8ox/gophercloud/openstack/objectstorage/v1/objects"
 )
 
 // CompareFiles will compare two files
@@ -146,7 +146,7 @@ func DeleteTempDir(t *testing.T, dirName string) {
 }
 
 // GetObject is an alias to objects.GetObject so we don't have to import
-// gophercloud/gophercloud into objects_test.go and make things confusing.
+// cro8ox/gophercloud into objects_test.go and make things confusing.
 func GetObject(client *gophercloud.ServiceClient, cName, oName string) (*objects.GetHeader, error) {
 	return objects.Get(client, cName, oName, nil).Extract()
 }

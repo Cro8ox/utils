@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/utils/acceptance/clients"
-	"github.com/gophercloud/utils/gnocchi/metric/v1/resources"
+	"github.com/cro8ox/gophercloud/acceptance/tools"
+	"github.com/cro8ox/utils/acceptance/clients"
+	"github.com/cro8ox/utils/gnocchi/metric/v1/resources"
 )
 
 func TestResourcesCRUD(t *testing.T) {

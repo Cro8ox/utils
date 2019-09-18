@@ -1,8 +1,8 @@
 package archivepolicies
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/cro8ox/gophercloud"
+	"github.com/cro8ox/gophercloud/pagination"
 )
 
 // List makes a request against the Gnocchi API to list archive policies.

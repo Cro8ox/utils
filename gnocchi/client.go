@@ -1,7 +1,7 @@
 package gnocchi
 
 import (
-	"github.com/gophercloud/gophercloud"
+	"github.com/cro8ox/gophercloud"
 )
 
 func initClientOpts(client *gophercloud.ProviderClient, eo gophercloud.EndpointOpts, clientType string) (*gophercloud.ServiceClient, error) {

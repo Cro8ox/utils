@@ -3,9 +3,9 @@ package v1
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/utils/gnocchi/metric/v1/archivepolicies"
+	"github.com/cro8ox/gophercloud"
+	"github.com/cro8ox/gophercloud/acceptance/tools"
+	"github.com/cro8ox/utils/gnocchi/metric/v1/archivepolicies"
 )
 
 // CreateArchivePolicy will create a Gnocchi archive policy. An error will be returned if the

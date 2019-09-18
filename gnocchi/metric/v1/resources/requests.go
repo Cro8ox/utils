@@ -3,9 +3,9 @@ package resources
 import (
 	"time"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
-	"github.com/gophercloud/utils/gnocchi"
+	"github.com/cro8ox/gophercloud"
+	"github.com/cro8ox/gophercloud/pagination"
+	"github.com/cro8ox/utils/gnocchi"
 )
 
 // ListOptsBuilder allows extensions to add additional parameters to the

@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/utils/gnocchi/metric/v1/resources"
+	"github.com/cro8ox/gophercloud"
+	"github.com/cro8ox/gophercloud/acceptance/tools"
+	"github.com/cro8ox/utils/gnocchi/metric/v1/resources"
 	"github.com/hashicorp/go-uuid"
 )
 

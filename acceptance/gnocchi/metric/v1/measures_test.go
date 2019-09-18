@@ -5,8 +5,8 @@ package v1
 import (
 	"testing"
 
-	"github.com/gophercloud/utils/acceptance/clients"
-	"github.com/gophercloud/utils/gnocchi/metric/v1/measures"
+	"github.com/cro8ox/utils/acceptance/clients"
+	"github.com/cro8ox/utils/gnocchi/metric/v1/measures"
 )
 
 func TestMeasuresCRUD(t *testing.T) {

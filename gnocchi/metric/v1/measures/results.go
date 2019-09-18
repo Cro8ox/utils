@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gophercloud/utils/gnocchi"
+	"github.com/cro8ox/utils/gnocchi"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/cro8ox/gophercloud"
+	"github.com/cro8ox/gophercloud/pagination"
 )
 
 // CreateResult represents the result of a create operation. Call its

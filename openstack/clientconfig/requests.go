@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack"
+	"github.com/cro8ox/gophercloud"
+	"github.com/cro8ox/gophercloud/openstack"
 
 	yaml "gopkg.in/yaml.v2"
 )

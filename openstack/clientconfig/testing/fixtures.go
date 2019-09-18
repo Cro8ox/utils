@@ -1,8 +1,8 @@
 package testing
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/utils/openstack/clientconfig"
+	"github.com/cro8ox/gophercloud"
+	"github.com/cro8ox/utils/openstack/clientconfig"
 )
 
 var iTrue = true

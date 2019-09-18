@@ -1,6 +1,6 @@
 package metrics
 
-import "github.com/gophercloud/gophercloud"
+import "github.com/cro8ox/gophercloud"
 
 const resourcePath = "metric"
 
